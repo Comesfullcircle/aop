@@ -7,14 +7,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class CallServiceV0 {
 
-    public void external(){
-        //AOP코드
+    public void external() {
         log.info("call external");
         internal(); //내부 메서드 호출(this.internal())
     }
 
     public void internal() {
-        //AOP코드
         log.info("call internal");
     }
 }

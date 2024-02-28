@@ -25,6 +25,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	//aop 사용위해 추가
 	implementation 'org.springframework.boot:spring-boot-starter-aop'
+	//implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
